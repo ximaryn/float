@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.number__big {
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.number__little {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.box{
+    background: #C4C4C4;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px ;
+
+}
+.container {
+    max-width: 100%;
+    background: #C4C4C4;
+    margin: 0 0 -50px 0;
+}
+
+.block {
+    max-width: 1000px;
+    background: #E6E6E6;
+    margin-bottom: 50px;
+
+}
+.card__big__left {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: left;
+    text-align: center;
+    padding: 60px;
+}
+.card__big__right {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: right;
+    text-align: center;
+    padding: 60px;
+}
+.card__little {
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    float: left;
+    text-align: center;
+
+}
+.square__box {
+    max-width: 500px;
+    float: right;
+}
